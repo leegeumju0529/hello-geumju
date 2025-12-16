@@ -1,0 +1,285 @@
+
+body {
+  font-family: "Lexend", "Nanum Gothic", sans-serif;
+}
+
+
+
+
+.navbar-brand {
+    font-size: 32px;
+    font-weight: 800;
+    color: hsl(200, 100%, 53%) !important; 
+}
+
+
+  header {
+    background-image: url(images/homeimage.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+
+
+.nav-link {
+  color: #333;
+  transition: color 0.2s ease;
+   font-size: 1.2rem;
+   font-weight: 500;
+}
+
+
+.nav-link:hover {
+  color: #4da3ff;   
+}
+
+.nav-link.active {
+  color: #1e88e5;  
+  font-weight: 800;
+}
+
+
+    
+
+.about-title {
+    font-size: 3rem;  
+    font-weight: bold; 
+    color: hsl(200, 100%, 53%); 
+}
+
+.aboutme-section {
+    background-color: #fffed7; 
+    padding: 50px 0;          
+}
+
+
+
+
+
+.plusaboutme {
+    background: linear-gradient(to bottom, #c3e0ff, #fffbe7);
+    min-height: 100vh;            
+    margin: 0;   
+}
+
+.plusabouttitle {
+    font-size: 3rem;
+    color: hsl(200, 100%, 53%);
+    font-weight: bold;
+}
+
+
+.profile-img {
+    width: 80%;
+    max-width: 400px;
+    border-radius: 15px; 
+}
+
+.plus-text {
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
+
+
+
+.travel-title {
+    font-size: 3rem;  
+    font-weight: bold; 
+}
+
+
+#travel {
+    background-color: rgb(187, 229, 255); 
+}
+
+.travel-title {
+    color:  hsl(200, 100%, 53%);
+}
+
+
+/*폴라로이드*/
+.polaroid {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    max-width: 360px; 
+    margin: 0 auto;  
+
+}
+
+.polaroid-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+
+.polaroid-img {
+    
+    width: 100%;
+    border-radius: 5px;
+}
+
+.caption {
+    margin-top: 12px;
+    font-size: 0.95rem;
+    color: #555;
+}
+
+
+.love-title {
+    font-size: 3rem; 
+    font-weight: bold; 
+    color: hsl(200, 100%, 53%);
+}
+
+#whatilove {
+  background: #fffed7;
+}
+
+
+body.pluswhatilove {
+    background: linear-gradient(to bottom, #c3e0ff, #fffbe7);
+    min-height: 100vh;             
+    margin: 0;   
+}
+
+
+
+
+
+.card-img-top {
+    cursor: pointer;
+    aspect-ratio: 4 / 3;  
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+
+.pluslove-title {
+    color: hsl(200, 100%, 53%); 
+    font-size: 3rem;
+}
+
+.love-start {
+    margin-bottom: 0.5rem; 
+    line-height: 1.2;      
+}
+
+
+
+
+.bucketlist-title {
+    font-size: 3rem; 
+    font-weight: bold; 
+    color: hsl(200, 100%, 53%); 
+}
+
+
+
+.card-body {
+    background-color: #ffffff !important; 
+}
+
+
+#bucketlist {
+    background: rgb(187, 229, 255);}
+
+
+    .btn-outline-primary {
+    background-color: #fffed7; 
+    border-color: #0d6efd;     
+    color: #3e3e3e;          
+}
+
+
+
+
+
+/* index.html 만드는거 부분*/
+#index {
+    background-image:url(images/start.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;}
+
+.letterbutton {
+    width: 60px;
+    height: 60px;
+    font-size: 1.9rem;
+}
+
+
+.letterbutton-container {
+    margin-top: 2rem; 
+}
+
+
+#index h1 {
+    color: #fffed7;
+}
+
+
+
+
+
+
+
+#contact {
+  background-color: #c2d5e9;   
+}
+
+.contact-me {
+    color: #f7f5b3;
+}
+
+.contact-me2 {
+    color: #555;
+}
+
+
+.yutube-btn {
+    background-color: #ffdddd;
+}
+
+.instagram-btn {
+    background-color: #d8f0da;
+}
+
+.kakao-btn {
+    background-color: #ffffcc;
+}
+
+
+.footer {
+  background-color: #c2d5e9; 
+    padding: 20px 0;          
+
+}
+
+.footer-text {
+color: black;             
+    margin: 0;               
+    font-size: 0.95rem; 
+}
+
+
+
+
+#video {
+    background: 
+    #fffed7;
+}
+
+.plusvideo {
+    background: linear-gradient(to bottom, #c3e0ff, #fffbe7);
+    min-height: 100vh;           
+    margin: 0;   
+}

@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello, Geumju!</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
+
+
+  </head>
+
+
+
+<body class="pluswhatilove" data-bs-spy="scroll" data-bs-target="#nav-menu">
+    <nav class="navbar navbar-expand-md navbar-light bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+  
+            <a class="navbar-brand" href="index.html">JOE</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link"  href="intro.html#home">Home</a>
+                    <a class="nav-link"  href="intro.html#aboutme">Me</a>
+                    <a class="nav-link"  href="intro.html#travel">Travel </a>
+                    <a class="nav-link"  href="intro.html#whatilove">Love</a>
+                    <a class="nav-link"  href="intro.html#bucketlist">Bucket List</a>
+                    <a class="nav-link"  href="intro.html#video">Video</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+<section class="container py-5" id="pluswhatilove">
+
+        <div class="text-center py-5">
+            <h2 class="fw-bold pluslove-title">What I Love</h2>
+            <p class="lead love-start text-muted">'이금주'가 좋아하는 것들에 대해 알아보자!</p>
+            <p class="lead love-start text-muted">(자세한 내용이 궁금하다면 사진을 클릭해 보세요.)</p>
+        </div>
+    
+
+
+
+  <div class="row text-center">
+
+    <!-- 1 -->
+    <div class="col-sm-6 col-lg-4">
+      <div class="card shadow">
+        <img src="images/food.jpg" alt="디저트 이미지"
+             class="card-img-top" 
+             data-bs-toggle="modal" data-bs-target="#love1Modal">
+        <div class="card-body"><h5>디저트 먹기</h5></div>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="col-sm-6 col-lg-4">
+      <div class="card shadow">
+        <img src="images/bicycle.jpg" alt="자전거 이미지"
+             class="card-img-top" 
+             data-bs-toggle="modal" data-bs-target="#love2Modal">
+        <div class="card-body"><h5>자전거 타며 힐링하기</h5></div>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card shadow">
+        <img src="images/movie.jpg" alt="지브리영화 이미지"
+             class="card-img-top" 
+             data-bs-toggle="modal" data-bs-target="#love3Modal">
+        <div class="card-body"><h5>지브리 영화 보기</h5></div>
+      </div>
+    </div>
+
+    <!-- 4 -->
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card shadow">
+        <img src="images/family.jpg" alt="가족 이미지"
+             class="card-img-top" 
+             data-bs-toggle="modal" data-bs-target="#love4Modal">
+        <div class="card-body"><h5>가족과 시간 보내기</h5></div>
+      </div>
+    </div>
+
+    <!-- 5 -->
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card shadow">
+        <img src="images/trip.jpg" alt="여행 이미지"
+             class="card-img-top" 
+             data-bs-toggle="modal" data-bs-target="#love5Modal">
+        <div class="card-body"><h5>여행 다니기</h5></div>
+      </div>
+    </div>
+
+    <!-- 6 -->
+    <div class="col-sm-6 col-lg-4 mb-4">
+      <div class="card shadow">
+        <img src="images/fashion.jpg" alt="패션 이미지"
+             class="card-img-top" 
+             data-bs-toggle="modal" data-bs-target="#love6Modal">
+        <div class="card-body"><h5>패션과 꾸미기</h5></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+</section>
+
+
+
+
+
+
+
+<!-- Modal 1 -->
+<div class="modal fade" id="love1Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header"><h5>디저트 먹기</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/food.jpg" alt="디저트 이미지" class="img-fluid mb-3">
+        제가 가장 좋아하는 건 과일 케이크입니다. 그 외의 디저트도 정말 좋아해 매번 디저트 맛집 카페를 방문하는게 저의 취미입니다. 덕분에 살도 많이 쪄서 운동도 함께 하고 있습니다.. 달달한 케이크 먹으면서 힐링하는 시간이 행복합니다.
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal fade" id="love2Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header"><h5>자전거 타며 힐링하기</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/bicycle.jpg" alt="자전거 이미지" class="img-fluid mb-3">
+       저는 자전거 타는 것을 좋아합니다. 가까운 곳을 방문할때도 항상 자전거를 타고 다닙니다. 자전거를 타면 시원한 바람을 맞으며 달릴수 있어 너무 상쾌합니다. 날 좋은날 자전거를 타는것이 저에겐 큰 힐링입니다.  
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 3 -->
+<div class="modal fade" id="love3Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header"><h5>지브리 영화 보기</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/movie.jpg" alt="지브리영화 이미지" class="img-fluid mb-3">
+        저는 어렸을때부터 지브리 영화를 좋아했습니다. 몽글몽글하고 따뜻한 그림체가 마치 제가 만화 속에 들어간 듯한 느낌을 주기 때문입니다. 저는 지브리 영화중에 '센과 치히로의 행방불명'과 '천공의 섬 라퓨타'를 가장 좋아합니다. 만약 관심 있는 분들이 있다면 꼭 보시는것을 추천합니다! 
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 4 -->
+<div class="modal fade" id="love4Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header"><h5>가족과 시간 보내기</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/family.jpg" alt="가족 이미지" class="img-fluid mb-3">
+        저는 친구들과 시간을 보내는것도 좋아하지만 가족과 시간 보내는것을 가장 좋아합니다. 그래서 매주 주말마다 가족과 드라이브를 가거나 여행을 자주 갑니다! 그 덕에 저희 가족은 국내에는 안가본 여행지가 없을정도 입니다. 가족과 함께 시간을 보내는 것이 저에겐 큰 휴식이자 힐링입니다. 
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 5 -->
+<div class="modal fade" id="love5Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header"><h5>여행 다니기</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/trip.jpg" alt="여행 이미지" class="img-fluid mb-3">
+        저는 여행 가는것을 아주 좋아합니다. 저는 새로운 곳을 가는것을 좋아해서 평소에도 안해본걸 도전하는걸 즐깁니다. 새로운 곳을 발견하고 경험하는 게 삶의 활력소 입니다. 가족과의 여행 뿐만 아니라 친구들과 새로운 곳을 방문하거나 놀러가는것도 좋아합니다. 저는 돈을 열심히 모아 나중에 세계여행을 가는것이 저의 큰 목표입니다! 다양한 나라와 사람들을 만나며 세상을 바라보는 눈을 넓혀나가고 싶습니다!
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal 6 -->
+<div class="modal fade" id="love6Modal" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header"><h5>패션과 꾸미기</h5>
+        <button class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <img src="images/fashion.jpg" alt="패션 이미지" class="img-fluid mb-3">
+       저는 패션과 메이크업에 관심이 많습니다. 저의 평소 소비는 옷 사는것이 대부분입니다. 하지만 학교를 다닐때에는 집에서 일찍 나와야 해서 꾸미는 날이 적습니다. 그래서 친구들을 만날때 엄청 꾸미는 편입니다! 아직 저에게 최고로 잘맞는 화장법과 패션을 찾지는 못했으나 다양한 스타일을 도전해볼 예정입니다.
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<footer class="footer">
+        <div class="container text-center">
+            <p class="footer-text"><i class="bi bi-c-circle"></i> 2025 Geumju Lee. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
